@@ -1,0 +1,227 @@
+body {
+    text-align:center;
+    background: #3b2463;
+    background: #383266;
+    color: white;
+}
+.fixedp {
+    text-align:center;
+    position:fixed;
+    margin-left:0%;
+}
+.titletext {
+    font-size: 80px;
+    text-align:center;
+    color:white;
+    font-family: 'MedievalSharp', cursive, Didot, Verdana, Geneva, Tahoma, sans-serif
+}
+.reasons {
+    color:white;
+    font-size: 24px; 
+    font-family: 'Arima', cursive;
+}
+.small-text {
+    color:antiquewhite;
+    font-variant: small-caps;
+    font-family:'Times New Roman', Times, serif
+}
+.bg-black {
+    opacity: 1;
+    /*background-color: black !important;*/
+    background-color:#6257B2 !important;
+  }
+.footer {
+    padding: 5rem 0;
+    color: rgba(255, 255, 255, 0.5) !important;
+    
+}
+small, .small {
+    font-size: 0.875em;
+}
+.container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container1 {
+    width: 100%;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    padding: 1.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.opaque {
+    background-color:#5b5468;
+    background-color:#6257B2;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 24%;
+    max-width: 25%;
+    padding: 0 4px;
+    background-color:#6257B2;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+.button2 {
+    background-color: white; 
+    color: black; 
+    border-radius: 10px;
+    border: 4px solid #383266;;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+.animate-charcter
+    {
+        text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 50px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background-clip: padding-box;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+    color:black;
+  }
+  
+  .button3 {
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    border: 2px solid #6257B2;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button3:hover {
+    background: #D1CBFF;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    background: #383266;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    position:relative;
+  }
+  
+  .popup {
+    margin: 100px 100px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    position: relative;
+    transition: all 2s ease-in-out;
+    overflow:scroll;
+  }
+  
+  .popup h2 {
+    position:relative;
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #D1CBFF;
+  }
+  .popup .content {
+    overflow:scroll;
+    position:relative;
+  }
+  
+  @media screen and (max-width: 800px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+      height:100%;
+    }
+  }
