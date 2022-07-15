@@ -1,6 +1,6 @@
 # BookMark - A book blog/club/website
 ### A multi-page website with a login/signup page, blog, quote (from famous authors) generator, and more.
-##### Uses React mixed with HTML and CSS. Javascript and Python were used as well. 
+##### Uses React.js mixed with HTML and CSS. Javascript and Python were used as well. 
 
 ## Quick Preview Video
 ### Here:
